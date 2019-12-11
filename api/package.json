@@ -1,0 +1,22 @@
+{
+  "name": "budget-manager",
+  "description": "budget manager api",
+  "version": "0.0.1",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "electron-log": "^3.0.7",
+    "electron-prompt": "^1.4.0",
+    "express": "^3.21.2",
+    "mongoose": "^5.8.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "electron": "^7.1.4"
+  }
+}
