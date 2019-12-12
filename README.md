@@ -12,12 +12,12 @@ Then go to the app folder and do the same thing: cd ../app
 
 And install the npm dependencies: npm install
 
-Run
+Run- 
 Go to the api folder and run the node.js server: node app.js
 
 Then, go the app folder and in the terminal window, type: npm start
 
-Stack
+Stack- 
 AngularJS
 Bootstrap
 MongoDB
