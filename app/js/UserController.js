@@ -3,10 +3,15 @@ budgetControllers.controller('UserLoginCtrl', ['$scope', '$http', '$location', '
 
 		$scope.logIn = function(user) {
 			$http.post("http://localhost:3000/login", user, {withCredentials: true}).success(function(data) {
+				if (data.message == "Bad User"){
+					userSrv.user = data;
+				}
+				else{
 	    		userSrv.isLogged = true;
 				userSrv.user = data;
 				
 				$location.path("/accounts");
+				}
 		    });
 		};
 	}

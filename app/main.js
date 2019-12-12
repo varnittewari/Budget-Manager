@@ -6,7 +6,7 @@ const {app, BrowserWindow, Menu} = electron;
 let mainWindow;
 
 app.on('ready', function() {
-    mainWindow = new BrowserWindow({ width:800, height: 470, frame: false});
+    mainWindow = new BrowserWindow({ width:800, height: 600});
     mainWindow.setMenuBarVisibility(false)
     mainWindow.Title
     mainWindow.loadURL(url.format({
