@@ -2,7 +2,7 @@
 A project I am working on to create a personal budget tracking app and to practice the fundamentals of RESTful web services.
 
 Installation-
-Get the sources with git clone https://github.com/kdelemme/budget-manager.git
+Get the sources with git clone https://github.com/varnittewari/budget-manager.git
 
 Then, go inside the api folder: cd api
 
