@@ -12,12 +12,12 @@ budgetControllers.controller('CategoryCtrl', ['$scope', '$http',
 
 	    	//Create the new category with form input values
 	    	var c = new Object();
-	    	c.name = category.name;
+			c.name = category.name;
 
 	    	//Save Category
 	    	$http.post('http://localhost:3000/categories', c, {withCredentials: true}).success(function(data) {
 		    	$scope.categories.push(data);
-		    });
+			});
 	    };
 
 	    $scope.deleteCategory = function(categoryId) {
