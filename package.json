@@ -17,6 +17,6 @@
     "passport-local": "^1.0.0"
   },
   "devDependencies": {
-    "electron": "^7.1.4"
+    "electron": "^15.5.5"
   }
 }
